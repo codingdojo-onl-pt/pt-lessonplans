@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lecture</title>
+    <!-- Only added to help explain span and help with table and img visuals -->
+    <style>
+        span {
+            color: red;
+            font-size: 3em;
+        }
+        img {
+            max-width: 100px;
+        }
+        tr, th, td {
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Lorem ipsum</a>
+        <a href="#">Mollitia velit</a>
+        <a href="#">Ipsum velit</a>
+        <a href="https://google.com">Velit ipsum</a>
+    </nav>
+    <!-- DIV tags are used to separate blocks of content typically for css -->
+    <div>
+        <!-- SPAN tags are used to separate smaller things like a word in a paragraph -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatibus porro. Iste necessitatibus, error, adipisci dolore voluptatum perferendis eos <span>quisquam quam doloremque autem</span> repudiandae voluptate dolores eius rem eum natus.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil eum id nulla? Impedit, ipsam perferendis. Ipsam, quisquam nesciunt! Dolorem a ullam animi corporis, modi blanditiis nesciunt recusandae nihil ea eos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum natus doloremque consectetur quidem nesciunt corporis? Eum quas recusandae laudantium, deserunt repellendus incidunt, molestiae, vitae tenetur inventore minima alias porro fugiat.</p>
+    </div>
+    <h1>H1 -> Hello everyone</h1>
+    <h2>H2 -> Hello everyone</h2>
+    <h3>H3 -> Hello everyone</h3>
+    <h4>H4 -> Hello everyone</h4>
+    <h5>H5 -> Hello everyone</h5>
+    <h6>H6 -> Hello everyone</h6>
+    <div>
+        <!-- unordered list -->
+        <ul>
+            <li>Lorem</li>
+            <li>Ipsum</li>
+        </ul>
+        <!-- ordered list -->
+        <ol>
+            <li>Dolor</li>
+            <li>Sit</li>
+        </ol>
+            <!-- Table with Column Headers -->
+        <table>
+            <tr>
+                <th>Lorem</th>
+                <th>Ipsum</th>
+            </tr>
+            <tr>
+                <td>dolor sit</td>
+                <td>amet consectetur</td>
+            </tr>
+        </table>
+        <!-- Table with Row Headers -->
+        <table>
+            <tr>
+                <th>Lorem</th>
+                <td>dolor sit</td>
+            </tr>
+            <tr>
+                <th>Ipsum</th>
+                <td>amet consectetur</td>
+            </tr>
+        </table>
+    </div>
+    <form action="">
+        <div>
+            <label for="">Text Input Label</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Password Input Label</label>
+            <input type="password" name="" id="">
+        </div>
+        <div>
+            <label for="">Number Input Label</label>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <label for="">Date Input Label</label>
+            <input type="datetime" name="" id="">
+        </div>
+        <div>
+            <label for="">Textarea Label</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="">Select Label</label>
+            <select name="" id="">
+                <option value="">Please Chose</option>
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+            </select>
+        </div>
+        <div>
+            <div>
+                <label for="">Checkbox01 Label</label>
+                <input type="checkbox" name="" id="">
+            </div>
+            <div>
+                <label for="">Checkbox02 Label</label>
+                <input type="checkbox" name="" id="">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="radio">RadioButton01 Label</label>
+                <input type="radio" name="radio" id="">
+            </div>
+            <div>
+                <label for="radio">RadioButton02 Label</label>
+                <input type="radio" name="radio" id="">
+            </div>
+        </div>
+    </form>
+    <img src="./images/beesKnees.jpeg" alt="Pic of bee">
+    <img src="./images/cuteBee.jpeg" alt="bee">
+    <img src="./images/funBee.png" alt="bee">
+    <img src="./images/goofyBee.png" alt="bee">
+    <!-- Without the div tag all the images would try to be on 1 line adding the div around these last 2 forces them to start a new line -->
+    <div>
+        <img src="./images/grumpyBee.png" alt="bee">
+        <img src="./images/honeyBee.jpeg" alt="bee">
+    </div>
+</body>
+</html>

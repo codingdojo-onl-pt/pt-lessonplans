@@ -1,0 +1,16 @@
+div {
+    border: #abb0ae 4px groove;
+}
+.subTitle {
+    color: #3a3aa6;
+}
+p {
+    display: inline-block;
+}
+.column {
+    display: block;
+}
+span {
+    color: purple;
+    size: 2em;
+}
